@@ -10,6 +10,11 @@ import sitemap._
 import Loc._
 import net.liftmodules.JQueryModule
 import net.liftweb.http.js.jquery._
+import mapper._
+import net.liftweb.http.Html5Properties
+import net.liftweb.common.Full
+import net.liftweb.squerylrecord.SquerylRecord
+import org.squeryl.adapters.H2Adapter
 
 
 /**
@@ -20,6 +25,22 @@ class Boot {
   def boot {
     // where to search snippet
     LiftRules.addToPackages("code")
+
+    //Database setup
+    if (!DB.jndiJdbcConnAvailable_?) {
+      val vendor =
+        new StandardDBVendor(Props.get("db.driver") openOr "org.h2.Driver",
+          Props.get("db.url") openOr
+            "jdbc:h2:lift_proto.db;AUTO_SERVER=TRUE",
+          Props.get("db.user"), Props.get("db.password"))
+
+      LiftRules.unloadHooks.append(vendor.closeAllConnections_! _)
+
+      DB.defineConnectionManager(DefaultConnectionIdentifier, vendor)
+    }
+
+    //Tell squeryl about the database adapter
+    SquerylRecord.init(() => new H2Adapter)
 
     // Build SiteMap
     val entries = List(
