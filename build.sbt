@@ -16,6 +16,8 @@ unmanagedResourceDirectories in Test <+= (baseDirectory) { _ / "src/main/webapp"
 
 scalacOptions ++= Seq("-deprecation", "-unchecked")
 
+env in Compile := Some(file("./src/main/webapp/WEB-INF/jetty-env.xml") asFile)
+
 libraryDependencies ++= {
   val liftVersion = "2.6-M2"
   Seq(
@@ -28,7 +30,8 @@ libraryDependencies ++= {
     "org.specs2"        %% "specs2"             % "1.14"            % "test",
     "com.h2database"    % "h2"                  % "1.3.167",
     "net.liftweb"       %% "lift-record"        % liftVersion,
-    "net.liftweb"       %% "lift-squeryl-record" % liftVersion
+    "net.liftweb"       %% "lift-squeryl-record" % liftVersion,
+    "org.eclipse.jetty" % "jetty-plus"          % "8.1.7.v20120910"  % "container,test"
   )
 }
 

@@ -5,3 +5,7 @@ project/boot
 project/build/target
 
 target
+
+lift_proto.db.h2.db
+
+console.devmode.log
