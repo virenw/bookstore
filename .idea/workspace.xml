@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" afterPath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html" afterPath="$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bookstore.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388480855625" ignored="false" />
+    <file path="/Dummy.txt" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388846180494" ignored="false" />
     <file path="/add_author.html" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388403169582" ignored="false" />
     <file path="/Boot.scala" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388844027645" ignored="false" />
     <file path="/AuthorScreen.scala" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388428300243" ignored="false" />
     <file path="/.gitignore" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388429113861" ignored="false" />
     <file path="/jetty-env.xml" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388478216401" ignored="false" />
     <file path="/web.xml" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388433321369" ignored="false" />
-    <file path="/list_authors.html" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388774932550" ignored="false" />
-    <file path="/Authors.scala" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388818277215" ignored="false" />
+    <file path="/list_authors.html" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388846535557" ignored="false" />
+    <file path="/Authors.scala" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388846390612" ignored="false" />
     <file path="/Author.scala" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388775586944" ignored="false" />
     <file path="/default.html" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388844816207" ignored="false" />
     <file path="/index.html" changelist="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" time="1388843947669" ignored="false" />
@@ -80,15 +78,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Book.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Book.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Boot.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,6 +109,17 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Authors.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Authors.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="16" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#22#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="add_author.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/add_author.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,10 +129,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthorScreen.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AuthorScreen.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/AuthorScreen.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="39" selection-start="140" selection-end="140" vertical-scroll-proportion="0.1396648">
+            <state line="5" column="39" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#22#61#0" expanded="true" />
               </folding>
@@ -149,10 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="19" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-7.0833335">
+            <state line="49" column="0" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.34">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -163,7 +163,7 @@
       <file leaf-file-name="list_authors.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/list_authors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="-4.375">
+            <state line="10" column="35" selection-start="228" selection-end="228" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -202,13 +202,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jetty-env.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/squeryl/list_authors.html" />
         <option value="$PROJECT_DIR$/src/main/scala/code/model/Author.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/code/snippet/Authors.scala" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/squeryl/add_author.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/squeryl/index.html" />
         <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/snippet/Authors.scala" />
+        <option value="$PROJECT_DIR$/src/main/webapp/squeryl/list_authors.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html" />
       </list>
     </option>
@@ -750,7 +750,11 @@
       <created>1388480864400</created>
       <updated>1388480864400</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added submenus to add and list authors">
+      <created>1388846193259</created>
+      <updated>1388846193259</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -822,7 +826,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Massive commit related to getting Squeryl to work with Lift Record. Setting up jndi connection to h2 db." />
+    <option name="LAST_COMMIT_MESSAGE" value="added submenus to add and list authors" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -841,6 +845,7 @@
     <MESSAGE value="added intellij folders" />
     <MESSAGE value="updated dependencies, i.e. libs" />
     <MESSAGE value="Massive commit related to getting Squeryl to work with Lift Record. Setting up jndi connection to h2 db." />
+    <MESSAGE value="added submenus to add and list authors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -881,34 +886,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Authors.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#22#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Book.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Author.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#20#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/list_authors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
@@ -943,11 +923,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Author.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="19" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-7.0833335">
+        <state line="10" column="6" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#20#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/AuthorScreen.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#22#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -959,11 +948,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/AuthorScreen.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Authors.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="140" selection-end="140" vertical-scroll-proportion="0.1396648">
+        <state line="7" column="16" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#22#61#0" expanded="true" />
+            <element signature="e#22#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/list_authors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="228" selection-end="228" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.34">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
