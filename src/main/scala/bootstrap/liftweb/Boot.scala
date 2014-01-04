@@ -96,7 +96,11 @@ class Boot {
     val entries = List(
       Menu.i("Home") / "index", // the simple way to declare a menu
 
-      Menu.i("Author") / "squeryl/add_author",
+      Menu("Authors") / "squeryl" / "index" submenus(
+        Menu("Add") / "squeryl" / "add_author",
+        Menu("List") / "squeryl" / "list_authors"
+        ),
+
 
       // more complex because this menu allows anything in the
       // /static path to be visible

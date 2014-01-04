@@ -48,14 +48,31 @@
 	background-color: #eee;
 }
 
+//used for submenus
+.sidebar ul li ul li {
+        margin:0;
+        padding:0;
+        border-style: none;
+        list-style-type: square;
+        list-style-position: inside;
+        padding-left: 10px;
+}
+
+.newalt {
+        color: #666;
+        //background-color: rgb(162, 162, 207);
+        font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
+        font-style: italic;
+        font-weight: normal;
+        }
 
   /* ]]> */
   </style>
   </head>
   <body>
     <div class="container">
-      <div class="column span-12 last" style="text-align: right">
-        <h1 class="alt">app<img alt="" id="ajax-loader" style="display:none; margin-bottom: 0px; margin-left: 5px" src="/images/ajax-loader.gif"></h1>
+      <div style="text-align: center">
+        <h1 class="alt">Bookstore Application<img alt="" id="ajax-loader" style="display:none; margin-bottom: 0px; margin-left: 5px" src="/images/ajax-loader.gif"></h1>
       </div>
 
       <hr>
@@ -63,7 +80,7 @@
       <div class="column span-6 colborder sidebar">
         <hr class="space" >
 
-	<span class="lift:Menu.builder"></span>
+	    <span class="lift:Menu.builder"></span>
 
         <div class="lift:Msgs?showAll=true"></div>
         <hr class="space" />
