@@ -1,0 +1,22 @@
+<lift:surround with="default" at="content">
+    <h2>List authors</h2>
+
+    <!--ul data-lift="Authors.list">
+        <li><span class="name">Author</span>
+        </li>
+    </ul-->
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Birthday</th>
+        </tr>
+        <tr data-lift="Authors.list">
+            <td><span class="name">Name</span></td>
+            <td><span class="age">Age</span></td>
+            <td><span class="bday">Birthday</span></td>
+        </tr>
+    </table>
+
+</lift:surround>
