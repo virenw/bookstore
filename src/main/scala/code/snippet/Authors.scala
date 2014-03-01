@@ -8,7 +8,7 @@ import net.liftweb.record.field.OptionalDateTimeField
 
 class Authors {
 
-  def list = "tr" #> Author.list.map( author => ".name" #> author.name & ".age" #> author.age.get
+  def list = "tr" #> Author.list.map(author => ".name" #> author.name & ".age" #> author.age.get
     & ".bday" #> birthdayToString(author.birthday)
   )
 

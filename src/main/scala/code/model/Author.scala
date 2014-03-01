@@ -7,6 +7,10 @@ import net.liftweb.squerylrecord.RecordTypeMode._
 import org.squeryl.Query
 import org.squeryl.annotations.Column
 import net.liftweb.util.Helpers._
+import net.liftweb.http.{SHtml, LiftRules}
+import net.liftweb.util.FormBuilderLocator
+import net.liftweb.common.{Full, Box, Empty}
+import scala.xml.Text
 
 class Author private() extends Record[Author] with KeyedRecord[Long] {
 
@@ -14,10 +18,16 @@ class Author private() extends Record[Author] with KeyedRecord[Long] {
 
   @Column(name="id")
   val idField = new LongField(this, 100)
-  val name = new StringField(this, "")
+  val name = new StringField(this, ""){
+    override def displayName = "Name"
+  }
 
-  val age = new OptionalIntField(this)
-  val birthday = new OptionalDateTimeField(this)
+  val age = new OptionalIntField(this){
+    override def displayName = "Age"
+  }
+  val birthday = new OptionalDateTimeField(this){
+    override def displayName = "Birthday"
+  }
 
   // relationship helpers
   def books: Query[Book] = Bookstore.books.where(_.authorId === id)

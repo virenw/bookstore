@@ -9,3 +9,5 @@ target
 lift_proto.db.h2.db
 
 console.devmode.log
+
+.DS_Store

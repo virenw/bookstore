@@ -3,6 +3,9 @@ package code.snippet
 import net.liftweb.http.{S, LiftScreen}
 import code.model.{Bookstore, Author}
 
+/**
+ * Form to add an author
+ */
 object AuthorScreen extends LiftScreen{
   object author extends ScreenVar(Author.createRecord)
   addFields(() => author.is.name)

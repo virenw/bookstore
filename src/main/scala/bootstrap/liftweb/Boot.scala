@@ -15,7 +15,7 @@ import net.liftweb.http.Html5Properties
 import net.liftweb.common.Full
 import net.liftweb.squerylrecord.SquerylRecord
 import org.squeryl.adapters.H2Adapter
-import code.model.Bookstore
+import code.model.{Author, Bookstore}
 import javax.naming.InitialContext
 import javax.sql.DataSource
 import org.squeryl.Session
@@ -31,6 +31,10 @@ class Boot {
   def boot {
     // where to search snippet
     LiftRules.addToPackages("code")
+
+    LiftRules.appendGlobalFormBuilder(FormBuilderLocator[List[Author]](
+      (authors, setter) => SHtml.select(authors.map(a => (a.id.toString, a.name.toString())), Empty, v => println(v))
+    ))
 
     DefaultConnectionIdentifier.jndiName = Props.get("jndi.name") openOr "jdbc/bookstoredb"
     //Database setup
@@ -100,6 +104,8 @@ class Boot {
         Menu("Add") / "squeryl" / "add_author",
         Menu("List") / "squeryl" / "list_authors"
         ),
+
+      Menu("Add Books") / "squeryl" / "add_book",
 
 
       // more complex because this menu allows anything in the
