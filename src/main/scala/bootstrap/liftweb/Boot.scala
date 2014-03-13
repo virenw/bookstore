@@ -15,12 +15,13 @@ import net.liftweb.http.Html5Properties
 import net.liftweb.common.Full
 import net.liftweb.squerylrecord.SquerylRecord
 import org.squeryl.adapters.H2Adapter
-import code.model.{Author, Bookstore}
+import code.model.{Publisher, Author, Bookstore}
 import javax.naming.InitialContext
 import javax.sql.DataSource
 import org.squeryl.Session
 import org.h2.jdbcx.JdbcDataSource
 import net.liftweb.squerylrecord.RecordTypeMode._
+import code.snippet.BookScreen
 
 
 /**
@@ -32,8 +33,19 @@ class Boot {
     // where to search snippet
     LiftRules.addToPackages("code")
 
+    //When LiftScreen is presented with a List[Author] type, it will automatically render it as a drop down,
+    //with no additional config or input at the call site.
+    //By calling LiftRules.appendGlobalFormBuilder we define this functionality once and it becomes available globally
+    //within the application.
+    //The setter is the function that you call when the form is submitted.
     LiftRules.appendGlobalFormBuilder(FormBuilderLocator[List[Author]](
-      (authors, setter) => SHtml.select(authors.map(a => (a.id.toString, a.name.toString())), Empty, v => println(v))
+      (authors, setter) => SHtml.select(authors.map(a => (a.id.toString, a.name.toString())), Empty,
+        s => setter(authors.filter(_.id == s.toInt)))
+    ))
+
+    LiftRules.appendGlobalFormBuilder(FormBuilderLocator[List[Publisher]](
+      (publishers, setter) => SHtml.select(publishers.map(p => (p.id.toString, p.name.toString())), Empty,
+        s => setter(publishers.filter(_.id == s.toInt)))
     ))
 
     DefaultConnectionIdentifier.jndiName = Props.get("jndi.name") openOr "jdbc/bookstoredb"
@@ -105,13 +117,22 @@ class Boot {
         Menu("List") / "squeryl" / "list_authors"
         ),
 
-      Menu("Add Books") / "squeryl" / "add_book",
+      Menu("Publishers") / "squeryl" / "publisher_index" submenus(
+        Menu("Add") / "squeryl" / "add_publisher",
+        Menu("List") / "squeryl" / "list_publishers"
+        ),
 
+      Menu("Books") / "squeryl" / "book_index" submenus(
+        Menu("Add") / "squeryl" / "add_book",
+        Menu("List") / "squeryl" / "list_books"
+        ),
 
       // more complex because this menu allows anything in the
       // /static path to be visible
-      Menu(Loc("Static", Link(List("static"), true, "/static/index"), 
-	       "Static Content")))
+//      Menu(Loc("Static", Link(List("static"), true, "/static/index"),
+//	       "Static Content")))
+      Menu(Loc("Static", Link(List("static"), true, "/static/info"),
+      	       "Info")))
 
     // set the sitemap.  Note if you don't want access control for
     // each page, just comment this line out.
