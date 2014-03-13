@@ -1,6 +1,6 @@
 package code.snippet
 
-import net.liftweb.http.LiftScreen
+import net.liftweb.http.{S, LiftScreen}
 import code.model.{Bookstore, Publisher}
 
 /**
@@ -11,10 +11,13 @@ class PublisherScreen extends LiftScreen{
   //screenvar to hold a new instance of publisher,
   //it is is local to this screen and cannot be shared directly
   object publisher extends ScreenVar(Publisher.createRecord)
+
   //register and display only the publisher field
   addFields(() => publisher.is.name)
+
   //finish method inserts the publisher into our Bookstore schema/db
   def finish() {
     Bookstore.publishers.insert(publisher)
+    S.notice("Publisher '%s' saved " format publisher.name)
   }
 }

@@ -86,7 +86,14 @@ class Boot {
     /*if(Props.devMode)
       DB.use(DefaultConnectionIdentifier){ connection =>  Bookstore printDdl }*/
     inTransaction {
-      Bookstore printDdl
+      //uncomment following 2 lines to drop schema and create a new one.
+      //if you run the application for the first you want to create the schema by uncommenting these lines,
+      //after that comment them so the schema is drop and created again.
+      /*Bookstore.drop
+      Bookstore.create*/
+
+      //this statement prints the schema
+      Bookstore.printDdl
     }
 
     //All Squeryl queries need to run in the context of a transaction

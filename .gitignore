@@ -10,4 +10,6 @@ lift_proto.db.h2.db
 
 console.devmode.log
 
+lift_proto.db.trace.db
+
 .DS_Store

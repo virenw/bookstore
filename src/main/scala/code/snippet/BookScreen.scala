@@ -24,6 +24,6 @@ object BookScreen extends LiftScreen{
     book.is.publisherId.set(selectedPublisher(0).id)
     Bookstore.books.insert(book)
 //    S.redirectTo("/index.html")
-    S.notice("Author '%s' saved " format book.name)
+    S.notice("Book '%s' saved " format book.name)
   }
 }

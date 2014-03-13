@@ -2,14 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c4440cb-8d7e-4fd3-acb1-a0eab19489de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/code/model/Book.scala" afterPath="$PROJECT_DIR$/src/main/scala/code/model/Book.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT___scala_compiler_2_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_jetty_continuation_8_1_7_v20120910_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_jetty_http_8_1_7_v20120910_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_jetty_io_8_1_7_v20120910_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_jetty_security_8_1_7_v20120910_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_jetty_server_8_1_7_v20120910_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_jetty_servlet_8_1_7_v20120910_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_jetty_util_8_1_7_v20120910_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_jetty_webapp_8_1_7_v20120910_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_jetty_xml_8_1_7_v20120910_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_scalaz_core_2_10_7_0_0_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_scalaz_effect_2_10_7_0_0_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_specs2_2_10_1_14_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_specs2_scalaz_concurrent_2_10_7_0_0_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_specs2_scalaz_core_2_10_7_0_0_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__scala_2_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__scala_2_9_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/h2_1_3_167.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lift_db_2_10_2_6_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lift_mapper_2_10_2_6_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lift_record_2_10_2_6_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lift_squeryl_record_2_10_2_6_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/squeryl_2_10_0_9_5_6.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea_modules/Lift 2.6 starter template.iml" afterPath="$PROJECT_DIR$/.idea_modules/bookstore.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/code/snippet/BookScreen.scala" afterPath="$PROJECT_DIR$/src/main/scala/code/snippet/BookScreen.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" afterPath="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea_modules/Lift 2.6 starter template-build.iml" afterPath="$PROJECT_DIR$/.idea_modules/Lift 2.6 starter template-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea_modules/Lift 2.6 starter template.iml" afterPath="$PROJECT_DIR$/.idea_modules/Lift 2.6 starter template.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/code/model/Publisher.scala" afterPath="$PROJECT_DIR$/src/main/scala/code/model/Publisher.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__nu_validator_htmlparser_htmlparser_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__nu_validator_htmlparser_htmlparser_1_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/code/snippet/PublisherScreen.scala" afterPath="$PROJECT_DIR$/src/main/scala/code/snippet/PublisherScreen.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bookstore.iws" />
@@ -77,7 +100,7 @@
       <file leaf-file-name="add_book.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/add_book.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="20" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="165">
+            <state line="1" column="20" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -86,10 +109,8 @@
       <file leaf-file-name="book_index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/book_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="61" selection-end="61" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
-              <folding>
-                <marker date="1394640579000" expanded="true" signature="42:60" placeholder="..." />
-              </folding>
+            <state line="2" column="16" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,7 +118,7 @@
       <file leaf-file-name="list_books.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/list_books.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="38" selection-start="385" selection-end="385" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="315">
+            <state line="11" column="38" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -106,25 +127,45 @@
       <file leaf-file-name="Bookstore.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Bookstore.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="6" column="6" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Boot.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Boot.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="65" selection-start="4494" selection-end="4494" vertical-scroll-proportion="0.53235906" vertical-offset="1425" max-vertical-offset="2205">
+            <state line="94" column="6" selection-start="3375" selection-end="3409" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2625">
+              <folding>
+                <element signature="e#27#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jetty-env.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jetty-env.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="12" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="16" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
+            <state line="12" column="22" selection-start="121" selection-end="121" vertical-scroll-proportion="0.36585367" vertical-offset="0" max-vertical-offset="492">
               <folding />
             </state>
           </provider>
@@ -142,7 +183,7 @@
       <file leaf-file-name="Publisher.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Publisher.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="2" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="26" column="2" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -151,7 +192,7 @@
       <file leaf-file-name="Book.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Book.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="63" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="855">
+            <state line="50" column="63" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -160,10 +201,8 @@
       <file leaf-file-name="Publishers.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Publishers.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding>
-                <element signature="e#22#55#0" expanded="true" />
-              </folding>
+            <state line="8" column="6" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,18 +210,7 @@
       <file leaf-file-name="Books.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Books.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="68" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding>
-                <element signature="e#22#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_authors.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/list_authors.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="494" selection-end="494" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="405">
+            <state line="13" column="68" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -201,17 +229,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/add_publisher.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="16" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
-              <folding>
-                <marker date="1394011506000" expanded="true" signature="42:136" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -220,7 +237,7 @@
       <file leaf-file-name="info.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="64" selection-start="108" selection-end="108" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
+            <state line="1" column="64" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
               <folding />
             </state>
           </provider>
@@ -229,7 +246,7 @@
       <file leaf-file-name="BookScreen.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/BookScreen.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="45" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="26" column="4" selection-start="840" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -238,7 +255,7 @@
       <file leaf-file-name="PublisherScreen.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/PublisherScreen.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="17" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="7" column="3" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -247,7 +264,7 @@
       <file leaf-file-name="list_publishers.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/list_publishers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="249" selection-end="249" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="8" column="12" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -256,7 +273,7 @@
       <file leaf-file-name="publisher_index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/publisher_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="61" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
+            <state line="0" column="0" selection-start="0" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
               <folding />
             </state>
           </provider>
@@ -291,22 +308,22 @@
         <option value="$PROJECT_DIR$/src/main/webapp/squeryl/list_authors.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/squeryl/add_book.html" />
         <option value="$PROJECT_DIR$/src/main/scala/code/model/Author.scala" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/scala/code/snippet/AuthorScreen.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/code/snippet/PublisherScreen.scala" />
         <option value="$PROJECT_DIR$/src/main/webapp/squeryl/add_publisher.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/squeryl/publisher_index.html" />
         <option value="$PROJECT_DIR$/src/main/scala/code/snippet/Authors.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/code/model/Publisher.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/code/snippet/Publishers.scala" />
         <option value="$PROJECT_DIR$/src/main/webapp/squeryl/book_index.html" />
-        <option value="$PROJECT_DIR$/src/main/scala/code/snippet/BookScreen.scala" />
         <option value="$PROJECT_DIR$/src/main/webapp/squeryl/list_publishers.html" />
         <option value="$PROJECT_DIR$/src/main/scala/code/model/Book.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/code/snippet/Books.scala" />
         <option value="$PROJECT_DIR$/src/main/webapp/squeryl/list_books.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/info.html" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/snippet/BookScreen.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/code/snippet/PublisherScreen.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -342,31 +359,32 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -376,33 +394,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -417,18 +413,14 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -444,227 +436,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="squeryl" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snippet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Publisher.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Book.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Author.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookstore" />
+              <option name="myItemId" value="liftweb-bookstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -678,7 +460,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -729,6 +510,14 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -742,12 +531,17 @@
       <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -775,19 +569,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -824,6 +605,19 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -843,19 +637,6 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -863,6 +644,11 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
     <option name="availableProjects">
       <map>
         <entry>
@@ -875,21 +661,16 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="default-496e7c" />
+                <option name="name" value="default-1263a9" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="default-496e7c-build" />
+                <option name="name" value="default-1263a9-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
           </value>
         </entry>
-      </map>
-    </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$" value="1389811519000" />
       </map>
     </option>
   </component>
@@ -1016,23 +797,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
-          <folding />
-        </state>
+        <state line="2" column="16" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Author.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="19" column="6" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Authors.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="10" column="16" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/add_author.html">
@@ -1042,9 +817,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/AuthorScreen.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="12" column="32" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
@@ -1074,29 +847,25 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="10" selection-start="2802" selection-end="2802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2115">
-          <folding />
+          <folding>
+            <element signature="e#27#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
-          <folding />
-        </state>
+        <state line="2" column="16" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Author.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="19" column="6" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Authors.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="10" column="16" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/add_author.html">
@@ -1106,9 +875,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/AuthorScreen.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="12" column="32" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
@@ -1140,16 +907,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jetty-env.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="527" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.0/lib/scala-library.jar!/scala/util/Right.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="0.026785715" vertical-offset="0" max-vertical-offset="560" />
@@ -1158,13 +915,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/templates-hidden/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="30" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1695" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
@@ -1176,25 +926,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/add_author.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="5" column="16" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/add_publisher.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="16" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
-          <folding>
-            <marker date="1394011506000" expanded="true" signature="42:136" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="61" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="61" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/HelloWorld.scala">
@@ -1211,7 +955,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/add_book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="165">
+        <state line="1" column="20" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
@@ -1230,64 +974,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Publishers.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding>
-            <element signature="e#22#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/book_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="61" selection-end="61" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
-          <folding>
-            <marker date="1394640579000" expanded="true" signature="42:60" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/PublisherScreen.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="2" column="16" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/AuthorScreen.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="53" selection-start="392" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/BookScreen.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="45" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="15" column="53" selection-start="392" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Author.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="24" column="6" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/list_authors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="494" selection-end="494" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="405">
+        <state line="17" column="20" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Authors.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="91" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="10" column="91" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/model/Book.scala">
@@ -1299,7 +1012,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/list_books.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="385" selection-end="385" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="315">
+        <state line="11" column="38" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
@@ -1307,15 +1020,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Books.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="68" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding>
-            <element signature="e#22#55#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/list_publishers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="249" selection-end="249" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="8" column="12" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
@@ -1329,9 +1040,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="409" selection-end="409" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
+        <state line="5" column="35" selection-start="409" selection-end="409" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/squeryl/publisher_index.html">
@@ -1343,14 +1052,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="64" selection-start="108" selection-end="108" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
+        <state line="1" column="64" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/Publishers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/BookScreen.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="4" selection-start="840" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/code/snippet/PublisherScreen.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jetty-env.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/bootstrap/liftweb/Boot.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="65" selection-start="4494" selection-end="4494" vertical-scroll-proportion="0.53235906" vertical-offset="1425" max-vertical-offset="2205">
+        <state line="94" column="6" selection-start="3375" selection-end="3409" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2625">
+          <folding>
+            <element signature="e#27#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="121" selection-end="121" vertical-scroll-proportion="0.36585367" vertical-offset="0" max-vertical-offset="492">
           <folding />
         </state>
       </provider>
@@ -1407,7 +1160,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Lift 2.6 starter template</last-edited>
+          <last-edited>bookstore</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1419,7 +1172,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>h2-1.3.167</last-edited>
+          <last-edited>SBT: org.squeryl:squeryl_2.10:0.9.5-6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
