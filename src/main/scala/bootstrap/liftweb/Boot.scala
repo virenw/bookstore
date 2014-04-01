@@ -121,7 +121,8 @@ class Boot {
 
       Menu("Authors") / "squeryl" / "index" submenus(
         Menu("Add") / "squeryl" / "add_author",
-        Menu("List") / "squeryl" / "list_authors"
+        Menu("List") / "squeryl" / "list_authors",
+        Menu("List Page") / "squeryl" / "list_authors_page"
         ),
 
       Menu("Publishers") / "squeryl" / "publisher_index" submenus(

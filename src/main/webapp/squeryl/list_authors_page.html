@@ -1,0 +1,24 @@
+<lift:surround with="default" at="content">
+    <h2>List authors with pagination</h2>
+
+    <table class="newtable">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <!--th>Birthday</th-->
+        </tr>
+        <tr class="newtable" data-lift="AuthorsPageSnippet.list">
+            <td><span class="name">Name</span></td>
+            <td><span class="age">Age</span></td>
+            <!--td><span class="bday">Birthday</span></td-->
+        </tr>
+    </table>
+
+    <div data-lift="AuthorsPageSnippet.paginate">
+
+        <p>
+            <nav:recrords></nav:recrords>
+            <nav:first></nav:first> | <nav:prev></nav:prev> | <nav:allpages></nav:allpages> |   <nav:next>     </nav:next> | <nav:last></nav:last>
+        </p>
+    </div>
+</lift:surround>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea_modules/Lift 2.6 starter template-build.iml" filepath="$PROJECT_DIR$/.idea_modules/Lift 2.6 starter template-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea_modules/bookstore.iml" filepath="$PROJECT_DIR$/.idea_modules/bookstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/default-1263a9.iml" filepath="$PROJECT_DIR$/.idea/modules/default-1263a9.iml" />
     </modules>
   </component>
 </project>
